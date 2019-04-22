@@ -1,0 +1,20 @@
+{
+    "port": "3003",
+    "mongo": {
+        "host": "localhost",
+        "port": "27017",
+        "database": "omc-dev",
+        "secret": "omcdev"
+    },
+    "JWT": {
+        "accessTokenExpireAt": "1440m",
+        "refreshTokenExpireAt": "1440m",
+        "ACCESS_SECRET_KEY": "duXeE8*8T5qH^9=N",
+        "REFRESH_SECRET_KEY": "dUXeA8*8B5zH^9=N"
+    },
+    "crypt": {
+        "KEY": "dUXeA88T5qH",
+        "ALGO": "aes-192-cbc"
+    },
+    "environment": "development"
+}

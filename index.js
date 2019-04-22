@@ -50,7 +50,7 @@ var accessLogStrem = fs.createWriteStream(path.join(__dirname, 'access.log'), {
 app.use(morgan('combined', { stream: accessLogStrem }))
 
 // application routes
-app.use('/user', userRoutes)
+app.use('/users', userRoutes)
 app.use('/orders', orderRoutes)
 
 app.get('/', function (req, res) {

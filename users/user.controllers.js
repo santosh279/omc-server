@@ -14,7 +14,7 @@ exports.login = function (req, res) {
           if (resp) {
             callback(null, resp)
           } else {
-            callback({ message: 'Email not found', success: false })
+            callback({ message: 'Username not found', success: false })
           }
         })
       },

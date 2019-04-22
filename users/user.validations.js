@@ -1,5 +1,4 @@
 var Joi = require('joi')
-var userSchema = require('./user.model')
 exports.register = function (req, res, next) {
   const userSchema = Joi.object().keys({
     firstName: Joi.string().required(),

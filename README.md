@@ -1,4 +1,4 @@
-# omc-server
+# oms-server
 1) To get start with omc-server clone the code into your local environment
 2) Change the environment to NODE_ENV=development for development and       NODE_ENV=production
 3) By default the app environment is development

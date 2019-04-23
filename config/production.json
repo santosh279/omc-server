@@ -1,5 +1,5 @@
 {
-    "port": "3005",
+    "port": "3003",
     "mongo": {
         "host": "localhost",
         "port": "27017",
